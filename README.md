@@ -1,8 +1,12 @@
 # The Container Ecosystem Project
 
-The ecosystem of awesome new technologies emerging around containers and microservices can be a little overwhelming, to say the least. We thought we might be able to help: welcome to the Container Ecosystem Project. The goals of this project are (1) to clearly lay out the different types technologies that make up the growing container ecosystem and the microservices technology stack – starting from the lowest levels of core container technology, and rising up through layers of abstraction to full-blown container platforms and support tools – and (2) to put forth the latest and greatest examples of each type of technology. This project is a living document – [see below for more info](https://github.com/draios/sysdig-container-ecosystem#about-the-container-ecosystem-project).
+The ecosystem of awesome new technologies emerging around containers and microservices can be a little overwhelming, to say the least. We thought we might be able to help: welcome to the Container Ecosystem Project. The goals of this project are (1) to clearly lay out the different types technologies that make up the growing container ecosystem and the microservices technology stack – starting from the lowest levels of core container technology, and rising up through layers of abstraction to full-blown container platforms and support tools – and (2) to put forth the latest and greatest examples of each type of technology. This project is a living document - submit edits/pull requests for suggested changes to this file.
 
+This project can be viewed as a webpage here: http://www.sysdig.com/the-container-ecosystem-project/
 
+Project created and maintained by Sysdig, the container-native visibility company.
+http://www.sysdig.com/
+http://www.sysdig.org/
 
 ## Table of Contents
 
@@ -342,14 +346,11 @@ These platforms further abstract container-based infrastructures by managing app
 
 ## About the Container Ecosystem Project
 
-Here at [Sysdig](https://sysdig.com/), the container-native visibility company, we talk to a lot of people in the container ecosystem: both consumers and producers of technology. And wow, there is a LOT of cool technology out there – and so much more coming out all the time. It can be hard to keep up with, even if you're a seasoned expert, much less as a curious newcomer just trying to figure out where to start. There are plenty of great guides out there for various container technologies and use cases (see below for some links). But we had yet to find a clearly organized survey of the different core technologies that make up the container ecosystem and the typical microservices stack. So we decided to make one. Welcome to the Container Ecosystem Project.
+Here at [Sysdig](https://sysdig.com/), the container-native visibility company, we talk to a lot of people in the container ecosystem: both consumers and producers of technology. And wow, there is a LOT of cool technology out there – and so much more coming out all the time. It can be hard to keep up with, even if you're a seasoned expert, much less as a curious newcomer just trying to figure out where to start. There are plenty of great guides out there for various container technologies and use cases (see below for some links). But we had yet to find a clearly organized survey of the different core technologies that make up the container ecosystem and the typical microservices stack. So we decided to make one: the Container Ecosystem Project.
 
-The goal of this project is to clearly lay out the different core technologies that might be important for anyone interested in containers and microservices – starting from the lowest levels, and rising up through layers of abstraction to full-blown container platforms. For each type of technology (broken into rows), we've tried to provide a brief description (see the left column), as well as list examples currently available for that technology (see the other columns). We've separated out open source solutions from commercial offerings, and two of the leading open source container technology producers, Docker and CoreOS, each got their own column. Throughout the doc, we've tried to mark beta technologies and parent technologies accordingly. Ideally, this document can introduce you to the microservices stack, and give you some keywords that you can then go research further on your own to learn more – but at least you'll hopefully have the big picture from here.
+For each type of technology, we've tried to provide a brief description, as well as list examples currently available for that technology. We've separated out open source solutions from commercial offerings. Two of the leading open source container technology producers, Docker and CoreOS, each get their own sections. Throughout the doc, we've tried to mark beta technologies and parent technologies accordingly. 
 
-This framework is not, of course, a perfect science, but we've done our best to create [MECE](https://en.wikipedia.org/wiki/MECE_principle) categories by row, and to put each technology in the most appropriate row. We are almost certainly missing many great technologies, and many technologies listed here do not yet have perfect descriptions. This will be a work in progress. If you have any suggested edits, please [tweet us](https://twitter.com/sysdig) or [send an email](mailto:info@sysdig.com). We'll do our best to keep this document up to date and prune off deprecated or abandoned technologies as the ecosystem evolves.
-
-That's all for now. I hope this can be a useful resource for the community!
-
+This framework is not, of course, a perfect science, and this will be a work in progress. If you have any suggested edits, please [tweet us](https://twitter.com/sysdig) or submit edits/pull requests. We'll do our best to keep this document up to date and prune off deprecated or abandoned technologies as the ecosystem evolves.
 
 ## Further Reading
 
