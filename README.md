@@ -27,7 +27,7 @@ Use these tools to run a small number of containers on a single host
 An abstract definition of a standard "container", allowing an ecosystem of technologies to support a standard container with potentially multiple, interchangeable runtime implementations
 
 * **Docker open source**
-  * [Open Container spec](https://github.com/appc/spec): open industry standard for container runtimes; supported by Docker, CoreOS, and most industry leaders; backed by the [Open Container Initiative (OCI)](http://www.opencontainers.org/) (run by the Linux Foundation); currently absorbing CoreOS'’'s AppC standard
+  * [Open Container spec](https://github.com/appc/spec): open industry standard for container runtimes; supported by Docker, CoreOS, and most industry leaders; backed by the [Open Container Initiative (OCI)](http://www.opencontainers.org/) (run by the Linux Foundation); currently absorbing CoreOS's AppC standard
 
 * **CoreOS open source**
   * [AppC](https://github.com/appc/spec) (deprecated): CoreOS is now supporting the OCI
@@ -38,11 +38,11 @@ An abstract definition of a standard "container", allowing an ecosystem of techn
 This is your actual running container (essentially an abstraction of Linux kernel components like namespaces and cgroups that allow virtualization on top of a shared kernel)
 
 * **Docker open source**
-  * [runc](https://github.com/opencontainers/runc): Docker'’'s container runtime, now donated to the OCI as the initial implementation of the standard; essentially a repackaging of libcontainer
+  * [runc](https://github.com/opencontainers/runc): Docker's container runtime, now donated to the OCI as the initial implementation of the standard; essentially a repackaging of libcontainer
   * [libcontainer](https://github.com/opencontainers/runc/tree/master/libcontainer): a Linux container library; enables and abstracts interactions with Linux kernel components to create and control containers
 
 * **CoreOS open source**
-  * [rkt](https://github.com/coreos/rkt): CoreOS'’'s container runtime; initially an implementation of the AppC specification, which is now being rolled into the OCI spec
+  * [rkt](https://github.com/coreos/rkt): CoreOS's container runtime; initially an implementation of the AppC specification, which is now being rolled into the OCI spec
 
 * **Other open source**
   * [LXC](https://linuxcontainers.org/): a Linux container library; originally utilized by runc until release of libcontainer
@@ -59,7 +59,7 @@ These tools abstract low level control of your container runtime adding further 
     * Docker client: a CLI for interacting with the Docker daemon
 
 * **CoreOS open source**
-  * [rkt CLI](https://coreos.com/rkt/docs/latest/commands.html): rkt'’'s container management functionality is delivered on-demand by a binary, rather than a daemon background process
+  * [rkt CLI](https://coreos.com/rkt/docs/latest/commands.html): rkt's container management functionality is delivered on-demand by a binary, rather than a daemon background process
 
 * **Other open source**
   * [LXD](https://linuxcontainers.org/lxd/): daemon and UI for LXC
@@ -75,7 +75,7 @@ These tools allow you to define specific containers, so they can be saved, share
   * [Dockerfile](https://docs.docker.com/articles/dockerfile_best-practices/): text file containing all the commands needed to build a Docker image
 
 * **CoreOS open source**
-  * [ACI (App Container Image)](https://github.com/coreos/rkt#rkt-basics): rkt'’'s native container image format (note, rkt also supports Docker images)
+  * [ACI (App Container Image)](https://github.com/coreos/rkt#rkt-basics): rkt's native container image format (note, rkt also supports Docker images)
 
 
 #### Registries
@@ -88,7 +88,7 @@ Repositories for storing and sharing Docker images
 * **Commercial**
   * Hosted
     * [Docker Hub](https://hub.docker.com/): hosted registry with free paid tiers, private public repositories, and a collection of "official" images
-    * [Quay.io](https://quay.io/): CoreOS'’'s hosted registry
+    * [Quay.io](https://quay.io/): CoreOS's hosted registry
   * On-premise
     * [Docker Trusted Registry](https://www.docker.com/docker-trusted-registry)
     * [CoreOS Enterprise Registry](https://coreos.com/products/enterprise-registry)
@@ -96,7 +96,7 @@ Repositories for storing and sharing Docker images
 
 #### Operating systems
 
-OS'’'s that are designed for hosting containers
+OS's that are designed for hosting containers
 
 * **Docker open source**
   * [boot2docker](http://boot2docker.io/) (basically deprecated by Docker Machine): minimalist Linux for running Docker on PC and Mac in a VM; now used by Docker Machine in certain environments
@@ -171,7 +171,7 @@ These tools allow applications within different containers to discover each othe
 
 #### Dynamic configuration management
 
-These tools let you dynamically update application settings based on changes to your distributed key-value store in applications that don'’'t natively support this
+These tools let you dynamically update application settings based on changes to your distributed key-value store in applications that don't natively support this
 
 * **CoreOS open source**
   * [confd](http://www.confd.io/): originally built for etcd, but now supports Consul and ZooKeeper
@@ -323,13 +323,13 @@ Use these additional container-native tools to support your container-based infr
 
 ## About the Container Ecosystem Project
 
-Here at [Sysdig](https://sysdig.com/), the container-native visibility company, we talk to a lot of people in the container ecosystem: both consumers and producers of technology. And wow, there is a LOT of cool technology out there – and so much more coming out all the time. It can be hard to keep up with, even if you'’'re a seasoned expert, much less as a curious newcomer just trying to figure out where to start. There are plenty of great guides out there for various container technologies and use cases (see below for some links). But we had yet to find a clearly organized survey of the different core technologies that make up the container ecosystem and the typical microservices stack. So we decided to make one. Welcome to the Container Ecosystem Project.
+Here at [Sysdig](https://sysdig.com/), the container-native visibility company, we talk to a lot of people in the container ecosystem: both consumers and producers of technology. And wow, there is a LOT of cool technology out there – and so much more coming out all the time. It can be hard to keep up with, even if you're a seasoned expert, much less as a curious newcomer just trying to figure out where to start. There are plenty of great guides out there for various container technologies and use cases (see below for some links). But we had yet to find a clearly organized survey of the different core technologies that make up the container ecosystem and the typical microservices stack. So we decided to make one. Welcome to the Container Ecosystem Project.
 
-The goal of this project is to clearly lay out the different core technologies that might be important for anyone interested in containers and microservices – starting from the lowest levels, and rising up through layers of abstraction to full-blown container platforms. For each type of technology (broken into rows), we'’'ve tried to provide a brief description (see the left column), as well as list examples currently available for that technology (see the other columns). We'’'ve separated out open source solutions from commercial offerings, and two of the leading open source container technology producers, Docker and CoreOS, each got their own column. Throughout the doc, we'’'ve tried to mark beta technologies and parent technologies accordingly. Ideally, this document can introduce you to the microservices stack, and give you some keywords that you can then go research further on your own to learn more – but at least you'’'ll hopefully have the big picture from here.
+The goal of this project is to clearly lay out the different core technologies that might be important for anyone interested in containers and microservices – starting from the lowest levels, and rising up through layers of abstraction to full-blown container platforms. For each type of technology (broken into rows), we've tried to provide a brief description (see the left column), as well as list examples currently available for that technology (see the other columns). We've separated out open source solutions from commercial offerings, and two of the leading open source container technology producers, Docker and CoreOS, each got their own column. Throughout the doc, we've tried to mark beta technologies and parent technologies accordingly. Ideally, this document can introduce you to the microservices stack, and give you some keywords that you can then go research further on your own to learn more – but at least you'll hopefully have the big picture from here.
 
-This framework is not, of course, a perfect science, but we'’'ve done our best to create [MECE](https://en.wikipedia.org/wiki/MECE_principle) categories by row, and to put each technology in the most appropriate row. We are almost certainly missing many great technologies, and many technologies listed here do not yet have perfect descriptions. This will be a work in progress. If you have any suggested edits, please [tweet us](https://twitter.com/sysdig) or [send an email](mailto:info@sysdig.com). We'’'ll do our best to keep this document up to date and prune off deprecated or abandoned technologies as the ecosystem evolves.
+This framework is not, of course, a perfect science, but we've done our best to create [MECE](https://en.wikipedia.org/wiki/MECE_principle) categories by row, and to put each technology in the most appropriate row. We are almost certainly missing many great technologies, and many technologies listed here do not yet have perfect descriptions. This will be a work in progress. If you have any suggested edits, please [tweet us](https://twitter.com/sysdig) or [send an email](mailto:info@sysdig.com). We'll do our best to keep this document up to date and prune off deprecated or abandoned technologies as the ecosystem evolves.
 
-That'’'s all for now. I hope this can be a useful resource for the community!
+That's all for now. I hope this can be a useful resource for the community!
 
 
 ## Further Reading
