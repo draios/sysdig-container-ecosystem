@@ -103,7 +103,7 @@ These tools allow you to define specific containers, so they can be saved, share
 
 #### Registries
 
-Repositories for storing and sharing Docker images
+Repositories for storing and sharing container images
 
 * **Docker open source**
   * [Docker Registry](https://github.com/docker/distribution): open source Docker image registry that can be hosted in your own environment
@@ -207,7 +207,7 @@ These tools let you dynamically update application settings based on changes to 
 
 *Use these technologies as complete platforms for running distributed applications across clusters of containers*
 
-#### Container orchestration platform
+#### Container orchestration platforms
 
 These platforms include or abstract away all of the core functionality (listed above) needed for container cluster management ("orchestration"), including container management, scheduling, cluster definition, and service discovery
 
@@ -220,7 +220,7 @@ These platforms include or abstract away all of the core functionality (listed a
   * [Hashicorp Nomad](https://nomadproject.io/): uses Consul
 
 
-#### Hosted container platform
+#### Hosted container platforms
 
 These platforms offer container hosting and orchestration as a service
 
