@@ -1,6 +1,8 @@
 # The Container Ecosystem Project
 
-The ecosystem of awesome new technologies emerging around containers and microservices can be a little overwhelming, to say the least. We thought we might be able to help: welcome to the Container Ecosystem Project. The goals of this project are (1) to clearly lay out the different types technologies that make up the growing container ecosystem and the microservices technology stack – starting from the lowest levels of core container technology, and rising up through layers of abstraction to full-blown container platforms and support tools – and (2) to put forth the latest and greatest examples of each type of technology. This project is a living document - submit edits/pull requests for suggested changes to this file.
+The ecosystem of awesome new technologies emerging around containers and microservices can be a little overwhelming, to say the least. We thought we might be able to help: welcome to the Container Ecosystem Project. The goals of this project are (1) to clearly lay out the different types technologies that make up the growing container ecosystem and the microservices technology stack – starting from the lowest levels of core container technology, and rising up through layers of abstraction to full-blown container platforms and support tools – and (2) to put forth the latest and greatest examples of each type of technology.  
+ 
+This project is a living document - please submit edits/pull requests for suggested changes.
 
 View this project as a webpage here:  
 http://www.sysdig.com/the-container-ecosystem-project/  
