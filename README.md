@@ -4,10 +4,10 @@ The ecosystem of awesome new technologies emerging around containers and microse
 
 This project can be viewed as a webpage here: http://www.sysdig.com/the-container-ecosystem-project/
 
-Project created and maintained by Sysdig, the container-native visibility company.
-http://www.sysdig.com/
-http://www.sysdig.org/
-
+Project created and maintained by Sysdig, the container-native visibility company.  
+http://www.sysdig.com/  
+http://www.sysdig.org/  
+ 
 ## Table of Contents
 
 * The Container Ecosystem
