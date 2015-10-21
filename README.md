@@ -226,7 +226,7 @@ These platforms offer container hosting and orchestration as a service
 * **Commercial**
   * [Amazon EC2 Container Service (ECS)](https://aws.amazon.com/ecs/)
   * [Google Container Engine](https://cloud.google.com/container-engine/): uses Kubernetes
-  * [Tutum](https://www.tutum.co/): still beta
+  * Docker [Tutum](https://www.tutum.co/): acquired by Docker; still beta
   * [Redhat Openshift](https://enterprise.openshift.com/): uses Kubernetes
   * [Joyent – Triton](https://www.joyent.com/)
   * [Giant Swarm](https://giantswarm.io/): still beta
