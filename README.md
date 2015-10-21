@@ -111,7 +111,7 @@ Repositories for storing and sharing container images
   * Hosted
     * [Amazon EC2 Container Registry (ECR)](https://aws.amazon.com/ecr/): still in beta
     * [Docker Hub](https://hub.docker.com/): hosted registry with free paid tiers, private public repositories, and a collection of "official" images
-    * [Google Container Registry](https://cloud.google.com/container-registry/): provides secure, private Docker image storage on Google Cloud Platform
+    * [Google Container Registry](https://cloud.google.com/container-registry/)
     * [Quay.io](https://quay.io/): CoreOS's hosted registry
   * On-premise
     * [Docker Trusted Registry](https://www.docker.com/docker-trusted-registry)
