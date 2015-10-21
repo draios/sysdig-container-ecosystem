@@ -1,18 +1,18 @@
 # The Container Ecosystem Project
 
-The ecosystem of awesome new technologies emerging around containers and microservices can be a little overwhelming, to say the least. We thought we might be able to help: welcome to the Container Ecosystem Project. The goals of this project are (1) to clearly lay out the different types technologies that make up the growing container ecosystem and the microservices technology stack – starting from the lowest levels of core container technology, and rising up through layers of abstraction to full-blown container platforms and support tools – and (2) to put forth the latest and greatest examples of each type of technology. This project is a living document – [see below for more info](The-Container-Ecosystem-Project#about-the-container-ecosystem-project).
+The ecosystem of awesome new technologies emerging around containers and microservices can be a little overwhelming, to say the least. We thought we might be able to help: welcome to the Container Ecosystem Project. The goals of this project are (1) to clearly lay out the different types technologies that make up the growing container ecosystem and the microservices technology stack – starting from the lowest levels of core container technology, and rising up through layers of abstraction to full-blown container platforms and support tools – and (2) to put forth the latest and greatest examples of each type of technology. This project is a living document – [see below for more info](https://github.com/draios/sysdig-container-ecosystem#about-the-container-ecosystem-project).
 
 
 
 ## Table of Contents
 
-* [The Container Ecosystem](The-Container-Ecosystem-Project#the-container-ecosystem)
-  * [Core Container Technologies](The-Container-Ecosystem-Project#core-container-technologies)
-  * [Distributed Container Technologies](The-Container-Ecosystem-Project#core-container-technologies)
-  * [Container Platform Technologies](The-Container-Ecosystem-Project#core-container-technologies)
-  * [Container-Native Support Technologies](The-Container-Ecosystem-Project#core-container-technologies)
-* [About the Container Ecosystem Project](The-Container-Ecosystem-Project#about-the-container-ecosystem-project)
-* [Further Reading](The-Container-Ecosystem-Project#further-reading)
+* [The Container Ecosystem](https://github.com/draios/https://github.com/draios/sysdig-container-ecosystem#the-container-ecosystem)
+  * [Core Container Technologies](https://github.com/draios/sysdig-container-ecosystem#core-container-technologies)
+  * [Distributed Container Technologies](https://github.com/draios/sysdig-container-ecosystem#core-container-technologies)
+  * [Container Platform Technologies](https://github.com/draios/sysdig-container-ecosystem#core-container-technologies)
+  * [Container-Native Support Technologies](https://github.com/draios/sysdig-container-ecosystem#core-container-technologies)
+* [About the Container Ecosystem Project](https://github.com/draios/sysdig-container-ecosystem#about-the-container-ecosystem-project)
+* [Further Reading](https://github.com/draios/sysdig-container-ecosystem#further-reading)
 
 
 
