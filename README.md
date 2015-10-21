@@ -6,7 +6,7 @@ The ecosystem of awesome new technologies emerging around containers and microse
 
 ## Table of Contents
 
-* [The Container Ecosystem](https://github.com/draios/sysdig-container-ecosystem#the-container-ecosystem)
+* The Container Ecosystem
   * [Core Container Technologies](https://github.com/draios/sysdig-container-ecosystem#core-container-technologies)
     * [Container specifications](https://github.com/draios/sysdig-container-ecosystem#container-specifications)
     * [Container runtimes](https://github.com/draios/sysdig-container-ecosystem#container-runtimes)
@@ -37,11 +37,9 @@ The ecosystem of awesome new technologies emerging around containers and microse
 
 
 
-## The Container Ecosystem
+## Core Container Technologies
 
-### Core Container Technologies
-
-Use these tools to run a small number of containers on a single host
+*Use these tools to run a small number of containers on a single host*
 
 #### Container specifications
 
@@ -145,9 +143,9 @@ These tools help you manage the host virtual environments in which you run your 
   * [Hashicorp Otto](https://www.ottoproject.io/): extends Vagrant to deploy and manage VMs across many platforms
 
 
-### Distributed Container Technologies
+## Distributed Container Technologies
 
-Use these technologies to run applications on a distributed cluster of containers
+*Use these technologies to run applications on a distributed cluster of containers*
 
 #### Scheduling
 
@@ -201,9 +199,9 @@ These tools let you dynamically update application settings based on changes to 
   * [Consul Template](https://github.com/hashicorp/consul-template): built natively for Consul
 
 
-### Container Platform Technologies
+## Container Platform Technologies
 
-Use these technologies as complete platforms for running distributed applications across clusters of containers
+*Use these technologies as complete platforms for running distributed applications across clusters of containers*
 
 #### Container orchestration platform
 
@@ -268,9 +266,9 @@ These platforms further abstract container-based infrastructures by managing app
   * [Deis Dokku](https://github.com/progrium/dokku): minimalist PaaS
 
 
-### Container-Native Support Technologies
+## Container-Native Support Technologies
 
-Use these additional container-native tools to support your container-based infrastructure
+*Use these additional container-native tools to support your container-based infrastructure*
 
 #### Networking
 
