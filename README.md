@@ -268,7 +268,7 @@ These platforms further abstract container-based infrastructures by managing app
   * [Flynn](https://github.com/flynn/flynn): container based PaaS; uses etcd
   * [RedHat Openshift Origin](http://www.openshift.org/)
   * [Cisco Mantl](https://github.com/CiscoCloud/microservices-infrastructure): uses Mesos
-  * [Deis Dokku](https://github.com/progrium/dokku): minimalist PaaS
+  * [Dokku](https://github.com/progrium/dokku): minimalist PaaS
 
 
 ## Container-Native Support Technologies
