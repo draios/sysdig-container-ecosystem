@@ -331,14 +331,14 @@ These platforms further abstract container-based infrastructures by managing app
 
 #### Security
 
+* **Other open source**
+  * [OpenSCAP](https://github.com/OpenSCAP/container-compliance)
+
 * **Commercial**
   * [Twistlock](https://www.twistlock.com/)
   * [Scalock](http://scalock.com/)
   * [Conjur](http://www.conjur.net/)
-  * [Lynis](https://cisofy.com/lynis/plugins/docker-containers)
-
-* **Other open source**
-  * [OpenSCAP](https://github.com/OpenSCAP/container-compliance)
+  * [Lynis](https://cisofy.com/lynis/plugins/docker-containers) 
 
 #### Getting started aides
 
