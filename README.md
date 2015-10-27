@@ -287,7 +287,7 @@ These platforms further abstract container-based infrastructures by managing app
   * [flannel](https://github.com/coreos/flannel): overlay network built using etcd that gives each host a separate subnet for its containers
 
 * **Other open source**
-  * [Weave](https://github.com/weaveworks/weave): overlay network that puts all containers in a distributed system onto a single virtual network
+  * [Weave](https://github.com/weaveworks/weave): overlay network that puts all containers in a distributed system onto a single virtual network; also includes service discovery functionality
   * [Calico](http://www.projectcalico.org/): layer 3 virtual network that provides each container with an IP address
 
 
