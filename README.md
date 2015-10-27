@@ -269,6 +269,7 @@ These platforms further abstract container-based infrastructures by managing app
   * [RedHat Openshift Origin](http://www.openshift.org/)
   * [Cisco Mantl](https://github.com/CiscoCloud/microservices-infrastructure): uses Mesos
   * [Dokku](https://github.com/progrium/dokku): minimalist PaaS
+  * [Empire](https://github.com/remind101/empire): PaaS built for Amazon's ECS
 
 
 ## Container-Native Support Technologies
