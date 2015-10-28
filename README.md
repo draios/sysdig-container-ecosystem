@@ -234,6 +234,7 @@ These platforms offer container hosting and orchestration as a service
   * [Giant Swarm](https://giantswarm.io/): still beta
   * [ProfitBricks](https://www.profitbricks.com/docker): still beta
   * [Modulus](https://modulus.io/)
+  * Rackspace [Carina](https://getcarina.com/): still beta
 
 
 #### Container platform management
