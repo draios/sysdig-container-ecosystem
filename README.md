@@ -254,7 +254,7 @@ These technologies add further abstracted management and control layers to distr
 * **Commercial**
   * [Mesosphere DCOS](https://mesosphere.com/): uses Mesos
   * [CoreOS Tectonic](https://tectonic.com/): uses CoreOS+Kubernetes; still beta
-  * [Nirmata](http://nirmata.com/)
+  * [Nirmata](http://nirmata.com/): multi-cloud container management; built in scheduling, policy-based orchestration, service discovery, dynamic load balancing, and infrastructure optimization.
   * [ContainerShip Enterprise](http://containership.io/): still beta
   * [StackEngine](http://stackengine.com/)
   * [AppFormix](http://www.appformix.com/)
